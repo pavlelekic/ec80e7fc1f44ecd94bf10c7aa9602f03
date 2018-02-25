@@ -14,6 +14,8 @@ app.use(cors());
 app.use(session({
     store: new FileStore(),
     secret: secrets.session_secret,
+    resave: false,
+    saveUninitialized: false
 }));
 app.use(routes);
 
