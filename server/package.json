@@ -17,6 +17,7 @@
     "express-session": "^1.15.6",
     "nonce": "^1.0.4",
     "query-string": "^5.1.0",
+    "ramda": "^0.25.0",
     "session-file-store": "^1.2.0",
     "twit": "^2.2.9"
   },
